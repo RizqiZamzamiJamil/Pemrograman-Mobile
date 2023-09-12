@@ -1,16 +1,6 @@
+# Tugas minggu 3
 # tugas_praktikum_berita
 
-A new Flutter project.
+## Berikut adalah hasilnya
+![2023-09-12](https://github.com/RizqiZamzamiJamil/Pemrograman-Mobile/assets/91874602/3ed79aa5-3a52-4ee4-b278-7b5058c675f8)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
