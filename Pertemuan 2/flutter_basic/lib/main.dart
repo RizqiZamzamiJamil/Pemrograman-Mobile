@@ -66,7 +66,7 @@ class MyApp extends StatelessWidget {
                         children: [
                           Image(
                               image: NetworkImage(
-                                  'https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1fXl6b.img?w=1920&h=1080&q=60&m=2&f=jpg')),
+                                  'https://asset-2.tstatic.net/jateng/foto/bank/images/Cristiano-Ronaldo-afp-a.jpg')),
                           Positioned(
                             bottom: 10,
                             child: Column(children: [
