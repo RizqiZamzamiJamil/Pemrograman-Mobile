@@ -19,6 +19,7 @@ class _MyAppState extends State<MyApp> {
   final inputController = TextEditingController();
   String _newValue = "Kelvin";
   double _result = 0;
+  List<String> listViewItem = [];
 
   var listItem = ["Kelvin", "Reamur"];
 
@@ -29,6 +30,8 @@ class _MyAppState extends State<MyApp> {
         _result = _inputUser + 273;
       else
         _result = (4 / 5) * _inputUser;
+      listViewItem.add("$_inputUser $_newValue = $_result");
+      inputController.text = "";
     });
   }
 
@@ -71,6 +74,7 @@ class _MyAppState extends State<MyApp> {
                     setState(() {
                       _newValue = changeValue!;
                     });
+                    perhitunganSuhu();
                   },
                 ),
                 Result(result: _result),
@@ -93,7 +97,7 @@ class _MyAppState extends State<MyApp> {
 
             //
             Container(
-              margin: EdgeInsets.only(top: 10),
+              margin: EdgeInsets.only(top: 10, bottom: 10),
               child: Text(
                 'Riwayat Konversi',
                 style: TextStyle(fontSize: 20),
@@ -101,7 +105,19 @@ class _MyAppState extends State<MyApp> {
             ),
 
             //
-            Expanded(child: ListView())
+            Expanded(
+              child: ListView(
+                children: listViewItem.map((String value) {
+                  return Container(
+                    margin: EdgeInsets.all(10),
+                    child: Text(
+                      value,
+                      style: TextStyle(fontSize: 15),
+                    ),
+                  );
+                }).toList(),
+              ),
+            ),
           ],
         ),
       ),
