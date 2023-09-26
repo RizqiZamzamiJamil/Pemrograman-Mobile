@@ -1,16 +1,14 @@
-# belanja
+# PRAKTIKUM MINGGU 5
 
-A new Flutter project.
+## Berikut adalah hasil dari praktikum dan tugas
 
-## Getting Started
+## Praktikum
+![2023-09-26](https://github.com/RizqiZamzamiJamil/Pemrograman-Mobile/assets/91874602/3401235e-b346-421b-b1a4-c4ef7047e290)
 
-This project is a starting point for a Flutter application.
+![2023-09-26 (2)](https://github.com/RizqiZamzamiJamil/Pemrograman-Mobile/assets/91874602/e6271f00-5ddd-4089-b39f-ecbaa25074b9)
 
-A few resources to get you started if this is your first Flutter project:
+## Tugas
+![2023-09-26 (3)](https://github.com/RizqiZamzamiJamil/Pemrograman-Mobile/assets/91874602/7b837903-65fb-474d-b29c-0ffec36e5767)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![2023-09-26 (4)](https://github.com/RizqiZamzamiJamil/Pemrograman-Mobile/assets/91874602/d25db0bb-5a2a-4ec5-b43f-6522349881a5)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
