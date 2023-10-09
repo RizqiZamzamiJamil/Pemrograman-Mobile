@@ -1,8 +1,7 @@
-# sql_lite
+# Pertemuan 6
 
 Berikut adalah hasilnya
 
-## Getting Started
 
 ![2023-10-09](https://github.com/RizqiZamzamiJamil/Pemrograman-Mobile/assets/91874602/8167eed3-566a-47e4-9149-cdc8b99dbcd1)
 
