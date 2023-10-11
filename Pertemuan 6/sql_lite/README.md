@@ -1,16 +1,12 @@
-# sql_lite
+# Pertemuan 6
 
-A new Flutter project.
+Berikut adalah hasilnya
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+![2023-10-09](https://github.com/RizqiZamzamiJamil/Pemrograman-Mobile/assets/91874602/8167eed3-566a-47e4-9149-cdc8b99dbcd1)
 
-A few resources to get you started if this is your first Flutter project:
+![2023-10-09 (1)](https://github.com/RizqiZamzamiJamil/Pemrograman-Mobile/assets/91874602/bfb7639c-751c-4464-90ba-01ba4af1a861)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![2023-10-09 (2)](https://github.com/RizqiZamzamiJamil/Pemrograman-Mobile/assets/91874602/d2477ec3-ddd9-4209-b2d9-77aed76ead5b)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
