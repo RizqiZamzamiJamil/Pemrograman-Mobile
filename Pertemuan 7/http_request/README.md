@@ -15,6 +15,8 @@
 3. Penambahan title dalam movie_detail
 4. Penambahan release date dalam movie_detail
 5. Perapihan dalam movie_detail
+
+
 ![2023-10-11 (4)](https://github.com/RizqiZamzamiJamil/Pemrograman-Mobile/assets/91874602/863e63d0-4f0e-44ab-beeb-8f7827332563)
 
 ![2023-10-11 (6)](https://github.com/RizqiZamzamiJamil/Pemrograman-Mobile/assets/91874602/e5037ed8-f82a-4ce0-8d99-7f63fffbf9a2)
