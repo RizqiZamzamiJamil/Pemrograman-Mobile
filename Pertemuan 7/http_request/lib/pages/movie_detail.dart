@@ -32,12 +32,31 @@ class MovieDetail extends StatelessWidget {
               height: height / 1.5,
               child: Image.network(path!),
             ),
-            Container(
-              child: Text(
-                movie.overview!,
-                textAlign: TextAlign.justify,
+            Card(
+              margin: EdgeInsets.symmetric(horizontal: 16),
+              child: Padding(
+                padding: EdgeInsets.all(16),
+                child: Column(
+                  children: [
+                    Text(
+                      movie.title!,
+                      style:
+                          TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                    ),
+                    Divider(color: Colors.black),
+                    Text(
+                      'Release Date ' + movie.releaseDate!.substring(0, 4),
+                      style: TextStyle(fontSize: 20),
+                    ),
+                    Divider(color: Colors.black),
+                    Text(
+                      movie.overview!,
+                      textAlign: TextAlign.justify,
+                      style: TextStyle(fontSize: 16),
+                    ),
+                  ],
+                ),
               ),
-              padding: EdgeInsets.symmetric(horizontal: 16),
             ),
           ],
         )),

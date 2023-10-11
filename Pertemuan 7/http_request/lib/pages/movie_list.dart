@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:http_request/service/http_service.dart';
 import 'package:http_request/pages/movie_detail.dart';
+import 'package:http_request/service/http_service.dart';
 
 class MovieList extends StatefulWidget {
   @override
@@ -42,11 +42,15 @@ class _MovieListState extends State<MovieList> {
               color: Colors.white,
               elevation: 2.0,
               child: ListTile(
-                leading: Image.network(
-                    movies[position].posterPath), // tambahkan baris ini
+                leading: ClipRRect(
+                  borderRadius: BorderRadius.circular(15),
+                  child: Image.network(movies[position].posterPath),
+                ), // tambahkan baris ini
                 title: Text(movies[position].title),
-                subtitle:
-                    Text('Rating = ' + movies[position].voteAverage.toString()),
+                subtitle: Text('Rating : ' +
+                    movies[position].voteAverage.toString() +
+                    ', Release Date : ' +
+                    movies[position].releaseDate.substring(0, 4)),
                 onTap: () {
                   MaterialPageRoute route = MaterialPageRoute(
                       builder: (_) => MovieDetail(movie: movies[position]));

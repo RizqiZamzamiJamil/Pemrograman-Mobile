@@ -4,8 +4,10 @@ class Movie {
   double? voteAverage;
   String? overview;
   String? posterPath;
+  String? releaseDate;
 
-  Movie(this.id, this.title, this.voteAverage, this.overview, this.posterPath);
+  Movie(this.id, this.title, this.voteAverage, this.overview, this.posterPath,
+      this.releaseDate);
 
   Movie.fromJson(Map<String, dynamic> parsedJson) {
     this.id = parsedJson['id'];
@@ -14,5 +16,6 @@ class Movie {
     this.overview = parsedJson['overview'];
     this.posterPath =
         "https://image.tmdb.org/t/p/w500/" + parsedJson['poster_path'];
+    this.releaseDate = parsedJson['release_date'];
   }
 }
