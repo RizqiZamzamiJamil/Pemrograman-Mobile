@@ -1,16 +1,12 @@
-# http_request
+# Pertemuan Minggu 7
 
-A new Flutter project.
+## Berikut adalah hasilnya
 
-## Getting Started
+## Praktikum
+![2023-10-11](https://github.com/RizqiZamzamiJamil/Pemrograman-Mobile/assets/91874602/afd1a88f-12d7-48ec-af0f-c1448ae4ed3a)
 
-This project is a starting point for a Flutter application.
+![2023-10-11 (1)](https://github.com/RizqiZamzamiJamil/Pemrograman-Mobile/assets/91874602/dc5cd625-5786-4983-b149-3d36654f4c6a)
 
-A few resources to get you started if this is your first Flutter project:
+![2023-10-11 (3)](https://github.com/RizqiZamzamiJamil/Pemrograman-Mobile/assets/91874602/9f4cf1c8-90d4-4e2f-9526-b219092e41a0)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Hasil Akhir
