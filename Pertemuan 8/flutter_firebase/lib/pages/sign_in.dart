@@ -8,7 +8,6 @@ String? name;
 String? email;
 String? imageUrl;
 Future<String?> signInWithGoogle() async {
-  await Firebase.initializeApp();
   final GoogleSignInAccount? googleSignInAccount = await googleSignIn.signIn();
   final GoogleSignInAuthentication googleSignInAuthentication =
       await googleSignInAccount!.authentication;
