@@ -45,8 +45,7 @@ class HomePage extends StatelessWidget {
                     top: 20,
                     left: 40,
                     child: Image(
-                      image: AssetImage(
-                          "assets/judul.png"), // Ubah ini sesuai dengan lokasi dan nama file gambar Anda
+                      image: AssetImage("assets/judul.png"),
                     ),
                   ),
                   Positioned(

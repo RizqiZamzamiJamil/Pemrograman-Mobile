@@ -13,8 +13,7 @@ class lihat_detail extends StatelessWidget {
               child: Stack(
                 children: [
                   Transform.translate(
-                    offset: Offset(-100.0,
-                        0.0), // Menggeser Container ke atas sejauh 50 piksel
+                    offset: Offset(-100.0, 0.0),
                     child: ClipRRect(
                       borderRadius: BorderRadius.only(
                         bottomLeft: Radius.circular(800),
@@ -48,8 +47,7 @@ class lihat_detail extends StatelessWidget {
                     left: 60,
                     width: 100,
                     child: Image(
-                      image: AssetImage(
-                          "assets/judul.png"), // Ubah ini sesuai dengan lokasi dan nama file gambar Anda
+                      image: AssetImage("assets/judul.png"),
                     ),
                   ),
                   Positioned(

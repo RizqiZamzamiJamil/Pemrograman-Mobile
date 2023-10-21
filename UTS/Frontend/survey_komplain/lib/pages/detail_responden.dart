@@ -15,8 +15,7 @@ class detail_responden extends StatelessWidget {
               child: Stack(
                 children: [
                   Transform.translate(
-                    offset: Offset(-100.0,
-                        0.0), // Menggeser Container ke atas sejauh 50 piksel
+                    offset: Offset(-100.0, 0.0),
                     child: ClipRRect(
                       borderRadius: BorderRadius.only(
                         bottomLeft: Radius.circular(800),
@@ -50,8 +49,7 @@ class detail_responden extends StatelessWidget {
                     left: 60,
                     width: 100,
                     child: Image(
-                      image: AssetImage(
-                          "assets/judul.png"), // Ubah ini sesuai dengan lokasi dan nama file gambar Anda
+                      image: AssetImage("assets/judul.png"),
                     ),
                   ),
                   Positioned(
@@ -103,43 +101,37 @@ class detail_responden extends StatelessWidget {
                               DataRow(
                                 cells: <DataCell>[
                                   DataCell(Text('Age')),
-                                  DataCell(Text(
-                                      '27')), // Ganti 'Flutter Mobile' dengan nilai yang sesuai
+                                  DataCell(Text('27')),
                                 ],
                               ),
                               DataRow(
                                 cells: <DataCell>[
                                   DataCell(Text('Gpa')),
-                                  DataCell(Text(
-                                      '2,18')), // Ganti 'Flutter Mobile' dengan nilai yang sesuai
+                                  DataCell(Text('2,18')),
                                 ],
                               ),
                               DataRow(
                                 cells: <DataCell>[
                                   DataCell(Text('Year')),
-                                  DataCell(Text(
-                                      '2')), // Ganti 'Flutter Mobile' dengan nilai yang sesuai
+                                  DataCell(Text('2')),
                                 ],
                               ),
                               DataRow(
                                 cells: <DataCell>[
                                   DataCell(Text('Count')),
-                                  DataCell(Text(
-                                      '1')), // Ganti 'Flutter Mobile' dengan nilai yang sesuai
+                                  DataCell(Text('1')),
                                 ],
                               ),
                               DataRow(
                                 cells: <DataCell>[
                                   DataCell(Text('Gender')),
-                                  DataCell(Text(
-                                      'M')), // Ganti 'Flutter Mobile' dengan nilai yang sesuai
+                                  DataCell(Text('M')),
                                 ],
                               ),
                               DataRow(
                                 cells: <DataCell>[
                                   DataCell(Text('Nationality')),
-                                  DataCell(Text(
-                                      'Indonesia')), // Ganti 'Flutter Mobile' dengan nilai yang sesuai
+                                  DataCell(Text('Indonesia')),
                                 ],
                               ),
                               DataRow(
