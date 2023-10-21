@@ -95,8 +95,9 @@ class lihat_detail extends StatelessWidget {
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                        builder: (context) =>
-                                            detail_responden()),
+                                        builder: (context) => detail_responden(
+                                            data:
+                                                "Academic Support and Resources")),
                                   );
                                 },
                                 child: Card(
@@ -138,8 +139,8 @@ class lihat_detail extends StatelessWidget {
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                        builder: (context) =>
-                                            detail_responden()),
+                                        builder: (context) => detail_responden(
+                                            data: "Activities and Travelling")),
                                   );
                                 },
                                 child: Card(
@@ -182,8 +183,8 @@ class lihat_detail extends StatelessWidget {
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                        builder: (context) =>
-                                            detail_responden()),
+                                        builder: (context) => detail_responden(
+                                            data: "Athletics and Sports")),
                                   );
                                 },
                                 child: Card(
@@ -226,8 +227,8 @@ class lihat_detail extends StatelessWidget {
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                        builder: (context) =>
-                                            detail_responden()),
+                                        builder: (context) => detail_responden(
+                                            data: "Career Opportunities")),
                                   );
                                 },
                                 child: Card(
@@ -270,8 +271,8 @@ class lihat_detail extends StatelessWidget {
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                        builder: (context) =>
-                                            detail_responden()),
+                                        builder: (context) => detail_responden(
+                                            data: "Financial Support")),
                                   );
                                 },
                                 child: Card(
@@ -314,8 +315,8 @@ class lihat_detail extends StatelessWidget {
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                        builder: (context) =>
-                                            detail_responden()),
+                                        builder: (context) => detail_responden(
+                                            data: "Food and Cantines")),
                                   );
                                 },
                                 child: Card(
@@ -358,8 +359,9 @@ class lihat_detail extends StatelessWidget {
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                        builder: (context) =>
-                                            detail_responden()),
+                                        builder: (context) => detail_responden(
+                                            data:
+                                                "Health and Well-being Support")),
                                   );
                                 },
                                 child: Card(
@@ -402,8 +404,9 @@ class lihat_detail extends StatelessWidget {
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                        builder: (context) =>
-                                            detail_responden()),
+                                        builder: (context) => detail_responden(
+                                            data:
+                                                "Housing and Transportation")),
                                   );
                                 },
                                 child: Card(
@@ -446,8 +449,9 @@ class lihat_detail extends StatelessWidget {
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                        builder: (context) =>
-                                            detail_responden()),
+                                        builder: (context) => detail_responden(
+                                            data:
+                                                "International Students Experience")),
                                   );
                                 },
                                 child: Card(
@@ -490,8 +494,8 @@ class lihat_detail extends StatelessWidget {
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                        builder: (context) =>
-                                            detail_responden()),
+                                        builder: (context) => detail_responden(
+                                            data: "Online Learning")),
                                   );
                                 },
                                 child: Card(
@@ -534,8 +538,8 @@ class lihat_detail extends StatelessWidget {
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                        builder: (context) =>
-                                            detail_responden()),
+                                        builder: (context) => detail_responden(
+                                            data: "Student Affairs")),
                                   );
                                 },
                                 child: Card(

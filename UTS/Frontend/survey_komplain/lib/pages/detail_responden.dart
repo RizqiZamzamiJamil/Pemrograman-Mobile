@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 
 class detail_responden extends StatelessWidget {
+  final String data;
+
+  detail_responden({required this.data});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -74,12 +78,150 @@ class detail_responden extends StatelessWidget {
                           Padding(
                             padding: const EdgeInsets.only(bottom: 20),
                             child: Text(
-                              "Detail Faktor",
+                              "Detail Faktor " + data,
                               style: TextStyle(
                                   fontWeight: FontWeight.w900, fontSize: 25),
+                              textAlign: TextAlign.center,
                             ),
                           ),
+                          DataTable(
+                            columns: const <DataColumn>[
+                              DataColumn(
+                                label: Text(
+                                  'Baris',
+                                  style: TextStyle(fontStyle: FontStyle.italic),
+                                ),
+                              ),
+                              DataColumn(
+                                label: Text(
+                                  'Nilai',
+                                  style: TextStyle(fontStyle: FontStyle.italic),
+                                ),
+                              ),
+                            ],
+                            rows: const <DataRow>[
+                              DataRow(
+                                cells: <DataCell>[
+                                  DataCell(Text('Age')),
+                                  DataCell(Text(
+                                      '27')), // Ganti 'Flutter Mobile' dengan nilai yang sesuai
+                                ],
+                              ),
+                              DataRow(
+                                cells: <DataCell>[
+                                  DataCell(Text('Gpa')),
+                                  DataCell(Text(
+                                      '2,18')), // Ganti 'Flutter Mobile' dengan nilai yang sesuai
+                                ],
+                              ),
+                              DataRow(
+                                cells: <DataCell>[
+                                  DataCell(Text('Year')),
+                                  DataCell(Text(
+                                      '2')), // Ganti 'Flutter Mobile' dengan nilai yang sesuai
+                                ],
+                              ),
+                              DataRow(
+                                cells: <DataCell>[
+                                  DataCell(Text('Count')),
+                                  DataCell(Text(
+                                      '1')), // Ganti 'Flutter Mobile' dengan nilai yang sesuai
+                                ],
+                              ),
+                              DataRow(
+                                cells: <DataCell>[
+                                  DataCell(Text('Gender')),
+                                  DataCell(Text(
+                                      'M')), // Ganti 'Flutter Mobile' dengan nilai yang sesuai
+                                ],
+                              ),
+                              DataRow(
+                                cells: <DataCell>[
+                                  DataCell(Text('Nationality')),
+                                  DataCell(Text(
+                                      'Indonesia')), // Ganti 'Flutter Mobile' dengan nilai yang sesuai
+                                ],
+                              ),
+                              DataRow(
+                                cells: <DataCell>[
+                                  DataCell(Text('Report')),
+                                  DataCell(Text(
+                                      'The limited access to research databases and materials is causing a lot of frustration among students. We need better access to be able to succeed academically.')), // Ganti 'Flutter Mobile' dengan nilai yang sesuai
+                                ],
+                              ),
+                            ],
+                          )
                           // ==================== Card ====================
+                          // for (var i = 0; i < dataList.length; i++)
+                          //   DataTable(
+                          //     columns: const <DataColumn>[
+                          //       DataColumn(
+                          //         label: Text(
+                          //           'Nama Baris',
+                          //           style:
+                          //               TextStyle(fontStyle: FontStyle.italic),
+                          //         ),
+                          //       ),
+                          //       DataColumn(
+                          //         label: Text(
+                          //           'Nilai',
+                          //           style:
+                          //               TextStyle(fontStyle: FontStyle.italic),
+                          //         ),
+                          //       ),
+                          //     ],
+                          //     rows: const <DataRow>[
+                          //       DataRow(
+                          //         cells: <DataCell>[
+                          //           DataCell(Text('Age')),
+                          //           DataCell(Text(dataList[i]
+                          //               .age)), // Ganti dengan nilai yang sesuai
+                          //         ],
+                          //       ),
+                          //       DataRow(
+                          //         cells: <DataCell>[
+                          //           DataCell(Text('Gpa')),
+                          //           DataCell(Text(dataList[i]
+                          //               .gpa)), // Ganti dengan nilai yang sesuai
+                          //         ],
+                          //       ),
+                          //       DataRow(
+                          //         cells: <DataCell>[
+                          //           DataCell(Text('Year')),
+                          //           DataCell(Text(dataList[i]
+                          //               .year)), // Ganti dengan nilai yang sesuai
+                          //         ],
+                          //       ),
+                          //       DataRow(
+                          //         cells: <DataCell>[
+                          //           DataCell(Text('Count')),
+                          //           DataCell(Text(dataList[i]
+                          //               .count)), // Ganti dengan nilai yang sesuai
+                          //         ],
+                          //       ),
+                          //       DataRow(
+                          //         cells: <DataCell>[
+                          //           DataCell(Text('Gender')),
+                          //           DataCell(Text(dataList[i]
+                          //               .gender)), // Ganti dengan nilai yang sesuai
+                          //         ],
+                          //       ),
+                          //       DataRow(
+                          //         cells: <DataCell>[
+                          //           DataCell(Text('Nationality')),
+                          //           DataCell(Text(dataList[i]
+                          //               .nationality)), // Ganti dengan nilai yang sesuai
+                          //         ],
+                          //       ),
+                          //       DataRow(
+                          //         cells: <DataCell>[
+                          //           DataCell(Text('Report')),
+                          //           DataCell(Text(dataList[i]
+                          //               .report)), // Ganti dengan nilai yang sesuai
+                          //         ],
+                          //       ),
+                          //     ],
+                          //   )
                         ],
                       ),
                     ),
@@ -87,6 +229,7 @@ class detail_responden extends StatelessWidget {
                 ),
               ),
             ),
+
             Container(
               width: double.infinity,
               margin: const EdgeInsets.all(20),
